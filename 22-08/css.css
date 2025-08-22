@@ -1,0 +1,17 @@
+
+        h1{
+            background-color: aqua;
+            color: blue;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 100px;
+            font-weight: bolder;
+            /* font-weight: lighter; */
+            /* font-weight: bold; */
+            text-decoration: overline;
+            /* text-decoration: underline; */
+            /* text-decoration: line-through; */
+            height: 100px;
+            width: 1520px;
+        }
+   
