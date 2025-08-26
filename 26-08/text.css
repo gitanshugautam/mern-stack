@@ -1,0 +1,26 @@
+h1{
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-decoration-color:yellow ;
+    text-decoration-style: dashed;
+}
+p{
+    text-indent: 100px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    word-spacing: 20px;
+    text-shadow: 5px 5px 10px red;
+}
+.head{
+    background-color: aqua;
+}
+#head{
+    background-color: red;
+}
+h4{
+    background-color: yellow;
+}
+/* *{
+    background-color: ;
+} */
