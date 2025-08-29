@@ -1,0 +1,29 @@
+.container{
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:nowrap ;
+}
+.container1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    flex-grow: 1;
+}
+.container2{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    order: 1;
+    flex-grow: 2;
+}
+.container3{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    flex-grow: 1;
+} 
