@@ -1,0 +1,41 @@
+body{
+    background-color: yellow;
+    box-sizing: border-box;
+    
+    padding: 0;
+}
+/* .container{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: movement;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes movement{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 1000px;
+    }
+    50%{
+        top: 500px;
+        left: 1000px;
+    }
+    75%{
+        top: 1000px;
+        left: 0;
+    }
+    100%{
+        top:0 ;
+        left: 0;
+    }
+} */
