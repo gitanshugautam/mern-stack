@@ -1,7 +1,7 @@
 let a = "hello javascript developer"
 
-// let b = a.length
-// console.log(b)
+let b = a.length
+console.log(b)
 
 
 // let b = a.toUpperCase()
