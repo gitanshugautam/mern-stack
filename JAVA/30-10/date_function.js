@@ -79,6 +79,5 @@ function ouuterFunction(){
     }
     return innerfunction
 }
-
 const closureFunction = ouuterFunction()
 closureFunction()
