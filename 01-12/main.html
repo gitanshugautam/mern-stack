@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left">
+        <img src="https://img.freepik.com/free-psd/grey-boulder-rock-isolated-transparent-background_632498-25568.jpg?semt=ais_hybrid&w=740&q=80" class="choice" data-choice="rock">
+        <img src="https://img.freepik.com/premium-photo/white-paper-ripped-message-torn-white-paper-ripped-message-torn-transparent_1028938-327852.jpg?semt=ais_hybrid&w=740&q=80" class="choice" data-choice="paper">
+        <img src="https://i.pinimg.com/736x/cf/98/eb/cf98eb7c95b93d90b3de01232abc08b9.jpg" class="choice" data-choice="scissors">
+    </div>
+
+    <div class="middle">
+        <div class="box">
+            <h3>You choosed</h3>
+            <img id="userImg" class="display-img">
+        </div>
+
+        <div class="box">
+            <h3>Computer Choosed</h3>
+            <img id="compImg" class="display-img">
+        </div>
+
+        <button id="checkBtn">Check Result</button>
+        <h2 id="resultText"></h2>
+    </div>
+
+    <div class="right">
+        <div class="scoreboard">
+            <p>You Won: <span id="youScore">0</span></p>
+            <p>Computer Won: <span id="compScore">0</span></p>
+            <p>Draw: <span id="drawScore">0</span></p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
